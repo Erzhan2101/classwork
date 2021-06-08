@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 h2  h3 h4 h5 h6 p {
+    color:  #170C04;
+
+}
+
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* product */
+.product {
+    text-align: center;
+    padding: 96px 0 118px;
+
+
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.box-product {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 25px 18px;
+    position: relative;
+
+}
+
+.feed{
+    position: absolute;
+    top: -24px;
+    height: 37px;
+    left: 160px;
+}
+.shadow{
+    position: absolute;
+    left: 41%;
+    right: 74.93%;
+    top: 2%;
+}
+
+
+.product-title {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.text-product {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 11px 0 25px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+
+}
+
+/* popular */
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.popular {
+    text-align: center;
+}
+.popular-title{
+    font-weight: 500;
+    font-size: 32px;
+}
+.popular-text{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 18px 0 25px;
+}
+
+.popular-box {
+
+    background: #FCF2EB;
+    border-radius: 20px;
+    padding: 71px 91px;
+}
+.box-t{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    padding: 25px 0 9px;
+}
+.lower-box{
+    background: #FCF2EB;
+    border-radius: 10px;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
